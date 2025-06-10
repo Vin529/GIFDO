@@ -8,6 +8,7 @@ from candidate import Candidate
 CURRENT_DIRECTORY = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIRECTORY = os.path.join(CURRENT_DIRECTORY, "..")
 PICKLE_CANDIDATE_DIRECTORY = os.path.join(ROOT_DIRECTORY, "data", "visualisation_files")
+CANDIDATE_PICKLE_FILE_NAME = "oslo_candidate.pickle"
 
 
 def show_labelled_interactive_mesh_render(candidate: Candidate) -> None:
@@ -198,8 +199,7 @@ def show_labelled_interactive_mesh_render(candidate: Candidate) -> None:
 
 
 def main():
-    candidate_pickle_file_name = "candidate.pickle"
-    candidate_pickle_path = os.path.join(PICKLE_CANDIDATE_DIRECTORY, candidate_pickle_file_name)
+    candidate_pickle_path = os.path.join(PICKLE_CANDIDATE_DIRECTORY, CANDIDATE_PICKLE_FILE_NAME)
 
     with open(candidate_pickle_path, "rb") as file:
         loaded_candidate = pickle.load(file)
