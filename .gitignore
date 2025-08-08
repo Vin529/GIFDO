@@ -1,0 +1,4 @@
+src/__pycache__/
+src/croprl/__pycache__/
+data/candidate_files/
+data/run_summaries/

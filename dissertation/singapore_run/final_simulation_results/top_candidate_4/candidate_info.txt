@@ -1,0 +1,38 @@
+id: gen_1198_e953a5d22b8145d4
+fitness: 2036575.130091977
+setpoints: {'temperature': 26.000080152185216, 'radiation': 4.554606182460488}
+building_structure: {'dimensions': array([59.05179173, 51.8402185 , 10.24808428]), 'face materials': array([Material(Name=low_iron_3mm), Material(Name=low_iron_3mm),
+       Material(Name=low_iron_3mm), Material(Name=low_iron_3mm),
+       Material(Name=low_iron_3mm), Material(Name=low_iron_3mm),
+       Material(Name=low_iron_3mm), Material(Name=low_iron_3mm),
+       Material(Name=clear_6mm), Material(Name=clear_6mm),
+       Material(Name=clear_6mm), Material(Name=clear_6mm),
+       Material(Name=M16_300mm_heavyweight_concrete),
+       Material(Name=M16_300mm_heavyweight_concrete),
+       Material(Name=M16_300mm_heavyweight_concrete),
+       Material(Name=M16_300mm_heavyweight_concrete),
+       Material(Name=low_iron_3mm), Material(Name=low_iron_3mm),
+       Material(Name=low_iron_3mm), Material(Name=low_iron_3mm),
+       Material(Name=clear_6mm), Material(Name=clear_6mm),
+       Material(Name=low_iron_3mm), Material(Name=clear_6mm),
+       Material(Name=low_iron_3mm), Material(Name=low_iron_3mm),
+       Material(Name=low_iron_3mm), Material(Name=low_iron_3mm),
+       Material(Name=low_iron_3mm), Material(Name=low_iron_3mm),
+       Material(Name=low_iron_3mm), Material(Name=low_iron_3mm),
+       Material(Name=M16_300mm_heavyweight_concrete),
+       Material(Name=M16_300mm_heavyweight_concrete),
+       Material(Name=M16_300mm_heavyweight_concrete),
+       Material(Name=M16_300mm_heavyweight_concrete),
+       Material(Name=low_iron_3mm), Material(Name=low_iron_3mm),
+       Material(Name=low_iron_3mm), Material(Name=low_iron_3mm),
+       Material(Name=low_iron_3mm), Material(Name=low_iron_3mm),
+       Material(Name=low_iron_3mm), Material(Name=low_iron_3mm),
+       Material(Name=low_iron_3mm), Material(Name=low_iron_3mm),
+       Material(Name=low_iron_3mm), Material(Name=low_iron_3mm)],
+      dtype=object)}
+annual_yield_value_USD: 54994659.544631965
+annual_lighting_cost_USD: 506695.08531295444
+annual_heating_cost_USD: 25059.62655327808
+annual_cooling_cost_USD: 27213.60676643374
+annual_crop_yield_kg: 13748664.886157991
+mean_daily_total_PAR_energy_per_area_MJ: 2.775694726856115

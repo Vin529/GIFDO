@@ -1,0 +1,49 @@
+id: gen_1200_b7135d79b0b14d43
+fitness: 1437007.0613798494
+setpoints: {'temperature': 26.00118817519529, 'radiation': 7.895460947392824}
+building_structure: {'dimensions': array([56.24014515, 53.80025676,  7.02022175]), 'face materials': array([Material(Name=I02_50_mm_insulation_board),
+       Material(Name=clear_6mm), Material(Name=clear_6mm),
+       Material(Name=I02_50_mm_insulation_board),
+       Material(Name=clear_6mm), Material(Name=clear_6mm),
+       Material(Name=I02_50_mm_insulation_board),
+       Material(Name=clear_6mm),
+       Material(Name=M08_200mm_lightweight_concrete_block_filled),
+       Material(Name=M08_200mm_lightweight_concrete_block_filled),
+       Material(Name=M08_200mm_lightweight_concrete_block_filled),
+       Material(Name=M08_200mm_lightweight_concrete_block_filled),
+       Material(Name=M16_300mm_heavyweight_concrete),
+       Material(Name=M16_300mm_heavyweight_concrete),
+       Material(Name=M16_300mm_heavyweight_concrete),
+       Material(Name=M16_300mm_heavyweight_concrete),
+       Material(Name=low_iron_3mm), Material(Name=low_iron_3mm),
+       Material(Name=low_iron_3mm), Material(Name=low_iron_3mm),
+       Material(Name=I02_50_mm_insulation_board),
+       Material(Name=I02_50_mm_insulation_board),
+       Material(Name=I02_50_mm_insulation_board),
+       Material(Name=I02_50_mm_insulation_board),
+       Material(Name=low_iron_3mm), Material(Name=low_iron_3mm),
+       Material(Name=low_iron_3mm), Material(Name=low_iron_3mm),
+       Material(Name=I02_50_mm_insulation_board),
+       Material(Name=I02_50_mm_insulation_board),
+       Material(Name=I02_50_mm_insulation_board),
+       Material(Name=I02_50_mm_insulation_board),
+       Material(Name=M16_300mm_heavyweight_concrete),
+       Material(Name=M16_300mm_heavyweight_concrete),
+       Material(Name=M16_300mm_heavyweight_concrete),
+       Material(Name=M16_300mm_heavyweight_concrete),
+       Material(Name=M08_200mm_lightweight_concrete_block_filled),
+       Material(Name=M08_200mm_lightweight_concrete_block_filled),
+       Material(Name=M08_200mm_lightweight_concrete_block_filled),
+       Material(Name=M08_200mm_lightweight_concrete_block_filled),
+       Material(Name=low_iron_3mm), Material(Name=low_iron_3mm),
+       Material(Name=low_iron_3mm),
+       Material(Name=M08_200mm_lightweight_concrete_block_filled),
+       Material(Name=clear_6mm), Material(Name=clear_6mm),
+       Material(Name=clear_6mm),
+       Material(Name=I02_50_mm_insulation_board)], dtype=object)}
+annual_yield_value_USD: 55228840.32946821
+annual_lighting_cost_USD: 933979.2791286568
+annual_heating_cost_USD: 225065.77826710397
+annual_cooling_cost_USD: 5011.690583909554
+annual_crop_yield_kg: 13807210.082367053
+mean_daily_total_PAR_energy_per_area_MJ: 2.23545058840969

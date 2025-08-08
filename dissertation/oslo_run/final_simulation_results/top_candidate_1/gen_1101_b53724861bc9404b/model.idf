@@ -1,0 +1,1705 @@
+
+Version,
+  24.2;                                   !- Version Identifier
+
+Timestep,
+  6;                                      !- Number of Timesteps per Hour
+
+LifeCycleCost:Parameters,
+  Life Cycle Cost Parameters,             !- Name
+  EndOfYear,                              !- Discounting Convention
+  ConstantDollar,                         !- Inflation Approach
+  0.03,                                   !- Real Discount Rate
+  ,                                       !- Nominal Discount Rate
+  ,                                       !- Inflation
+  ,                                       !- Base Date Month
+  2011,                                   !- Base Date Year
+  ,                                       !- Service Date Month
+  2011,                                   !- Service Date Year
+  25,                                     !- Length of Study Period in Years
+  ,                                       !- Tax rate
+  None;                                   !- Depreciation Method
+
+LifeCycleCost:UsePriceEscalation,
+  U.S. Avg  Commercial-Electricity,       !- Name
+  Electricity,                            !- Resource
+  2011,                                   !- Escalation Start Year
+  January,                                !- Escalation Start Month
+  0.9838,                                 !- Year Escalation 1
+  0.9730,                                 !- Year Escalation 2
+  0.9632,                                 !- Year Escalation 3
+  0.9611,                                 !- Year Escalation 4
+  0.9571,                                 !- Year Escalation 5
+  0.9553,                                 !- Year Escalation 6
+  0.9539,                                 !- Year Escalation 7
+  0.9521,                                 !- Year Escalation 8
+  0.9546,                                 !- Year Escalation 9
+  0.9550,                                 !- Year Escalation 10
+  0.9553,                                 !- Year Escalation 11
+  0.9564,                                 !- Year Escalation 12
+  0.9575,                                 !- Year Escalation 13
+  0.9596,                                 !- Year Escalation 14
+  0.9618,                                 !- Year Escalation 15
+  0.9614,                                 !- Year Escalation 16
+  0.9618,                                 !- Year Escalation 17
+  0.9618,                                 !- Year Escalation 18
+  0.9593,                                 !- Year Escalation 19
+  0.9589,                                 !- Year Escalation 20
+  0.9607,                                 !- Year Escalation 21
+  0.9625,                                 !- Year Escalation 22
+  0.9650,                                 !- Year Escalation 23
+  0.9708,                                 !- Year Escalation 24
+  0.9751,                                 !- Year Escalation 25
+  0.9762,                                 !- Year Escalation 26
+  0.9766,                                 !- Year Escalation 27
+  0.9766,                                 !- Year Escalation 28
+  0.9769,                                 !- Year Escalation 29
+  0.9773;                                 !- Year Escalation 30
+
+LifeCycleCost:UsePriceEscalation,
+  U.S. Avg  Commercial-Distillate Oil,    !- Name
+  FuelOilNo1,                             !- Resource
+  2011,                                   !- Escalation Start Year
+  January,                                !- Escalation Start Month
+  0.9714,                                 !- Year Escalation 1
+  0.9730,                                 !- Year Escalation 2
+  0.9942,                                 !- Year Escalation 3
+  1.0164,                                 !- Year Escalation 4
+  1.0541,                                 !- Year Escalation 5
+  1.0928,                                 !- Year Escalation 6
+  1.1267,                                 !- Year Escalation 7
+  1.1580,                                 !- Year Escalation 8
+  1.1792,                                 !- Year Escalation 9
+  1.1967,                                 !- Year Escalation 10
+  1.2200,                                 !- Year Escalation 11
+  1.2333,                                 !- Year Escalation 12
+  1.2566,                                 !- Year Escalation 13
+  1.2709,                                 !- Year Escalation 14
+  1.2826,                                 !- Year Escalation 15
+  1.2985,                                 !- Year Escalation 16
+  1.3102,                                 !- Year Escalation 17
+  1.3250,                                 !- Year Escalation 18
+  1.3261,                                 !- Year Escalation 19
+  1.3282,                                 !- Year Escalation 20
+  1.3324,                                 !- Year Escalation 21
+  1.3356,                                 !- Year Escalation 22
+  1.3431,                                 !- Year Escalation 23
+  1.3510,                                 !- Year Escalation 24
+  1.3568,                                 !- Year Escalation 25
+  1.3606,                                 !- Year Escalation 26
+  1.3637,                                 !- Year Escalation 27
+  1.3674,                                 !- Year Escalation 28
+  1.3706,                                 !- Year Escalation 29
+  1.3743;                                 !- Year Escalation 30
+
+LifeCycleCost:UsePriceEscalation,
+  U.S. Avg  Commercial-Residual Oil,      !- Name
+  FuelOilNo2,                             !- Resource
+  2011,                                   !- Escalation Start Year
+  January,                                !- Escalation Start Month
+  0.8469,                                 !- Year Escalation 1
+  0.8257,                                 !- Year Escalation 2
+  0.8681,                                 !- Year Escalation 3
+  0.8988,                                 !- Year Escalation 4
+  0.9289,                                 !- Year Escalation 5
+  0.9604,                                 !- Year Escalation 6
+  0.9897,                                 !- Year Escalation 7
+  1.0075,                                 !- Year Escalation 8
+  1.0314,                                 !- Year Escalation 9
+  1.0554,                                 !- Year Escalation 10
+  1.0861,                                 !- Year Escalation 11
+  1.1278,                                 !- Year Escalation 12
+  1.1497,                                 !- Year Escalation 13
+  1.1620,                                 !- Year Escalation 14
+  1.1743,                                 !- Year Escalation 15
+  1.1852,                                 !- Year Escalation 16
+  1.1948,                                 !- Year Escalation 17
+  1.2037,                                 !- Year Escalation 18
+  1.2071,                                 !- Year Escalation 19
+  1.2119,                                 !- Year Escalation 20
+  1.2139,                                 !- Year Escalation 21
+  1.2194,                                 !- Year Escalation 22
+  1.2276,                                 !- Year Escalation 23
+  1.2365,                                 !- Year Escalation 24
+  1.2420,                                 !- Year Escalation 25
+  1.2461,                                 !- Year Escalation 26
+  1.2509,                                 !- Year Escalation 27
+  1.2550,                                 !- Year Escalation 28
+  1.2591,                                 !- Year Escalation 29
+  1.2638;                                 !- Year Escalation 30
+
+LifeCycleCost:UsePriceEscalation,
+  U.S. Avg  Commercial-Natural gas,       !- Name
+  NaturalGas,                             !- Resource
+  2011,                                   !- Escalation Start Year
+  January,                                !- Escalation Start Month
+  0.9823,                                 !- Year Escalation 1
+  0.9557,                                 !- Year Escalation 2
+  0.9279,                                 !- Year Escalation 3
+  0.9257,                                 !- Year Escalation 4
+  0.9346,                                 !- Year Escalation 5
+  0.9412,                                 !- Year Escalation 6
+  0.9512,                                 !- Year Escalation 7
+  0.9645,                                 !- Year Escalation 8
+  0.9856,                                 !- Year Escalation 9
+  1.0067,                                 !- Year Escalation 10
+  1.0222,                                 !- Year Escalation 11
+  1.0410,                                 !- Year Escalation 12
+  1.0610,                                 !- Year Escalation 13
+  1.0787,                                 !- Year Escalation 14
+  1.0942,                                 !- Year Escalation 15
+  1.1098,                                 !- Year Escalation 16
+  1.1220,                                 !- Year Escalation 17
+  1.1308,                                 !- Year Escalation 18
+  1.1386,                                 !- Year Escalation 19
+  1.1486,                                 !- Year Escalation 20
+  1.1619,                                 !- Year Escalation 21
+  1.1763,                                 !- Year Escalation 22
+  1.1918,                                 !- Year Escalation 23
+  1.2118,                                 !- Year Escalation 24
+  1.2284,                                 !- Year Escalation 25
+  1.2439,                                 !- Year Escalation 26
+  1.2605,                                 !- Year Escalation 27
+  1.2772,                                 !- Year Escalation 28
+  1.2938,                                 !- Year Escalation 29
+  1.3115;                                 !- Year Escalation 30
+
+LifeCycleCost:UsePriceEscalation,
+  U.S. Avg  Commercial-Coal,              !- Name
+  Coal,                                   !- Resource
+  2011,                                   !- Escalation Start Year
+  January,                                !- Escalation Start Month
+  0.9970,                                 !- Year Escalation 1
+  1.0089,                                 !- Year Escalation 2
+  1.0089,                                 !- Year Escalation 3
+  0.9941,                                 !- Year Escalation 4
+  0.9941,                                 !- Year Escalation 5
+  1.0000,                                 !- Year Escalation 6
+  1.0030,                                 !- Year Escalation 7
+  1.0059,                                 !- Year Escalation 8
+  1.0089,                                 !- Year Escalation 9
+  1.0119,                                 !- Year Escalation 10
+  1.0148,                                 !- Year Escalation 11
+  1.0178,                                 !- Year Escalation 12
+  1.0208,                                 !- Year Escalation 13
+  1.0267,                                 !- Year Escalation 14
+  1.0297,                                 !- Year Escalation 15
+  1.0356,                                 !- Year Escalation 16
+  1.0415,                                 !- Year Escalation 17
+  1.0534,                                 !- Year Escalation 18
+  1.0564,                                 !- Year Escalation 19
+  1.0593,                                 !- Year Escalation 20
+  1.0653,                                 !- Year Escalation 21
+  1.0712,                                 !- Year Escalation 22
+  1.0742,                                 !- Year Escalation 23
+  1.0801,                                 !- Year Escalation 24
+  1.0831,                                 !- Year Escalation 25
+  1.0831,                                 !- Year Escalation 26
+  1.0861,                                 !- Year Escalation 27
+  1.0890,                                 !- Year Escalation 28
+  1.0920,                                 !- Year Escalation 29
+  1.0950;                                 !- Year Escalation 30
+
+Building,
+  Building 1,                             !- Name
+  ,                                       !- North Axis {deg}
+  ,                                       !- Terrain
+  ,                                       !- Loads Convergence Tolerance Value {W}
+  ,                                       !- Temperature Convergence Tolerance Value {deltaC}
+  FullExterior,                           !- Solar Distribution
+  ,                                       !- Maximum Number of Warmup Days
+  ;                                       !- Minimum Number of Warmup Days
+
+Zone,
+  Main Zone,                              !- Name
+  ,                                       !- Direction of Relative North {deg}
+  0,                                      !- X Origin {m}
+  0,                                      !- Y Origin {m}
+  0,                                      !- Z Origin {m}
+  ,                                       !- Type
+  1,                                      !- Multiplier
+  ,                                       !- Ceiling Height {m}
+  ,                                       !- Volume {m3}
+  ,                                       !- Floor Area {m2}
+  ,                                       !- Zone Inside Convection Algorithm
+  ,                                       !- Zone Outside Convection Algorithm
+  Yes;                                    !- Part of Total Floor Area
+
+Space,
+  Main Space,                             !- Name
+  Main Zone,                              !- Zone Name
+  ,                                       !- Ceiling Height {m}
+  ,                                       !- Volume {m3}
+  ;                                       !- Floor Area {m2}
+
+BuildingSurface:Detailed,
+  surface_0_I02_50_mm_insulation_board,   !- Name
+  Wall,                                   !- Surface Type
+  I02_50_mm_insulation_board,             !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  -19.387356075929, -21.5274497206793, 3.97942510678649, !- X,Y,Z Vertex 1 {m}
+  -20.0646275777858, -4.59519368189774, 4.89926413647951, !- X,Y,Z Vertex 2 {m}
+  -23.6668625371441, -24.8665227821618, 1.69419367236191; !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_10_M08_200mm_lightweight_concrete_block_filled, !- Name
+  Wall,                                   !- Surface Type
+  M08_200mm_lightweight_concrete_block_filled, !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  -24.7028372805193, 2.7011267130169, 0,  !- X,Y,Z Vertex 1 {m}
+  -21.9678059020953, 21.8591499476171, 3.11940644870871, !- X,Y,Z Vertex 2 {m}
+  -22.1525857876614, 28.940878656546, 0;  !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_11_M08_200mm_lightweight_concrete_block_filled, !- Name
+  Wall,                                   !- Surface Type
+  M08_200mm_lightweight_concrete_block_filled, !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  -23.7653876346572, -4.78816847853185, 3.03771867473301, !- X,Y,Z Vertex 1 {m}
+  -21.9678059020953, 21.8591499476171, 3.11940644870871, !- X,Y,Z Vertex 2 {m}
+  -24.7028372805193, 2.7011267130169, 0;  !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_12_M16_300mm_heavyweight_concrete, !- Name
+  Floor,                                  !- Surface Type
+  M16_300mm_heavyweight_concrete,         !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Ground,                                 !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  -22.1525857876614, 28.940878656546, 0,  !- X,Y,Z Vertex 1 {m}
+  -2.85267772202379, 1.87975658985931, 0, !- X,Y,Z Vertex 2 {m}
+  -24.7028372805193, 2.7011267130169, 0;  !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_13_M16_300mm_heavyweight_concrete, !- Name
+  Floor,                                  !- Surface Type
+  M16_300mm_heavyweight_concrete,         !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Ground,                                 !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  -2.85267772202379, 1.87975658985931, 0, !- X,Y,Z Vertex 1 {m}
+  21.6377721545075, -20.5414652998511, 0, !- X,Y,Z Vertex 2 {m}
+  -4.62883695191084, -23.5727973388249, 0; !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_14_M16_300mm_heavyweight_concrete, !- Name
+  Floor,                                  !- Surface Type
+  M16_300mm_heavyweight_concrete,         !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Ground,                                 !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  -24.7028372805193, 2.7011267130169, 0,  !- X,Y,Z Vertex 1 {m}
+  -4.62883695191084, -23.5727973388249, 0, !- X,Y,Z Vertex 2 {m}
+  -27.1287050595285, -23.1908347164922, 0; !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_15_M16_300mm_heavyweight_concrete, !- Name
+  Floor,                                  !- Surface Type
+  M16_300mm_heavyweight_concrete,         !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Ground,                                 !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  -2.85267772202379, 1.87975658985931, 0, !- X,Y,Z Vertex 1 {m}
+  -4.62883695191084, -23.5727973388249, 0, !- X,Y,Z Vertex 2 {m}
+  -24.7028372805193, 2.7011267130169, 0;  !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_16_generic_window_frame,        !- Name
+  Wall,                                   !- Surface Type
+  generic_window_frame,                   !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  -19.387356075929, -21.5274497206793, 3.97942510678649, !- X,Y,Z Vertex 1 {m}
+  -0.55757506245555, 0.0586414809563838, 5.12116548965128, !- X,Y,Z Vertex 2 {m}
+  -20.0646275777858, -4.59519368189774, 4.89926413647951; !- X,Y,Z Vertex 3 {m}
+
+FenestrationSurface:Detailed,
+  subsurface_16_low_iron_3mm,             !- Name
+  Window,                                 !- Surface Type
+  low_iron_3mm,                           !- Construction Name
+  surface_16_generic_window_frame,        !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Frame and Divider Name
+  ,                                       !- Multiplier
+  ,                                       !- Number of Vertices
+  -19.3830980508917, -21.5184144913165, 3.97990869043367, !- X,Y,Z Vertex 1 {m}
+  -0.565823633160407, 0.0529956863514353, 5.12087208786922, !- X,Y,Z Vertex 2 {m}
+  -20.0560878725527, -4.60038851006834, 4.89896884880857; !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_17_generic_window_frame,        !- Name
+  Wall,                                   !- Surface Type
+  generic_window_frame,                   !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  -0.55757506245555, 0.0586414809563838, 5.12116548965128, !- X,Y,Z Vertex 1 {m}
+  16.0454910932967, 21.7669443886643, 5.58077657272919, !- X,Y,Z Vertex 2 {m}
+  -2.94782697668029, 18.6753683994338, 5.9678587082942; !- X,Y,Z Vertex 3 {m}
+
+FenestrationSurface:Detailed,
+  subsurface_17_low_iron_3mm,             !- Name
+  Window,                                 !- Surface Type
+  low_iron_3mm,                           !- Construction Name
+  surface_17_generic_window_frame,        !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Frame and Divider Name
+  ,                                       !- Multiplier
+  ,                                       !- Number of Vertices
+  -0.554252477709239, 0.0680684196835187, 5.12147086947777, !- X,Y,Z Vertex 1 {m}
+  16.0372860719897, 21.7612279784394, 5.58075985469524, !- X,Y,Z Vertex 2 {m}
+  -2.93974364738713, 18.6694996456486, 5.96739232160249; !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_18_generic_window_frame,        !- Name
+  Wall,                                   !- Surface Type
+  generic_window_frame,                   !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  -20.0646275777858, -4.59519368189774, 4.89926413647951, !- X,Y,Z Vertex 1 {m}
+  -2.94782697668029, 18.6753683994338, 5.9678587082942, !- X,Y,Z Vertex 2 {m}
+  -20.861618422021, 13.9108873066991, 7.01525794848009; !- X,Y,Z Vertex 3 {m}
+
+FenestrationSurface:Detailed,
+  subsurface_18_low_iron_3mm,             !- Name
+  Window,                                 !- Surface Type
+  low_iron_3mm,                           !- Construction Name
+  surface_18_generic_window_frame,        !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Frame and Divider Name
+  ,                                       !- Multiplier
+  ,                                       !- Number of Vertices
+  -20.060998053726, -4.58590256065177, 4.89997238861799, !- X,Y,Z Vertex 1 {m}
+  -2.95563451464248, 18.66912001335, 5.96785398432733, !- X,Y,Z Vertex 2 {m}
+  -20.8536323601173, 13.9050221715205, 7.01390776160124; !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_19_generic_window_frame,        !- Name
+  Wall,                                   !- Surface Type
+  generic_window_frame,                   !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  -0.55757506245555, 0.0586414809563838, 5.12116548965128, !- X,Y,Z Vertex 1 {m}
+  -2.94782697668029, 18.6753683994338, 5.9678587082942, !- X,Y,Z Vertex 2 {m}
+  -20.0646275777858, -4.59519368189774, 4.89926413647951; !- X,Y,Z Vertex 3 {m}
+
+FenestrationSurface:Detailed,
+  subsurface_19_low_iron_3mm,             !- Name
+  Window,                                 !- Surface Type
+  low_iron_3mm,                           !- Construction Name
+  surface_19_generic_window_frame,        !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Frame and Divider Name
+  ,                                       !- Multiplier
+  ,                                       !- Number of Vertices
+  -0.566004308889135, 0.0640164190412175, 5.12140599983009, !- X,Y,Z Vertex 1 {m}
+  -2.95114063810754, 18.6659432247509, 5.96742774409422, !- X,Y,Z Vertex 2 {m}
+  -20.0566785278208, -4.58913281145272, 4.89954423307543; !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_1_generic_window_frame,         !- Name
+  Wall,                                   !- Surface Type
+  generic_window_frame,                   !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  -20.0646275777858, -4.59519368189774, 4.89926413647951, !- X,Y,Z Vertex 1 {m}
+  -20.861618422021, 13.9108873066991, 7.01525794848009, !- X,Y,Z Vertex 2 {m}
+  -23.7653876346572, -4.78816847853185, 3.03771867473301; !- X,Y,Z Vertex 3 {m}
+
+FenestrationSurface:Detailed,
+  subsurface_1_clear_6mm,                 !- Name
+  Window,                                 !- Surface Type
+  clear_6mm,                              !- Construction Name
+  surface_1_generic_window_frame,         !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Frame and Divider Name
+  ,                                       !- Multiplier
+  ,                                       !- Number of Vertices
+  -20.067012505508, -4.58548317644791, 4.89939905745173, !- X,Y,Z Vertex 1 {m}
+  -20.8621763662432, 13.9010341624807, 7.01364418044966, !- X,Y,Z Vertex 2 {m}
+  -23.7622196341071, -4.77910652107296, 3.04051951380865; !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_20_I02_50_mm_insulation_board,  !- Name
+  Wall,                                   !- Surface Type
+  I02_50_mm_insulation_board,             !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  22.9577291153106, -16.8421484983799, 4.30529881625323, !- X,Y,Z Vertex 1 {m}
+  2.0584819676799, -19.4704195611564, 3.82215190178207, !- X,Y,Z Vertex 2 {m}
+  22.3292624934393, -19.5035885113479, 2.08359990144177; !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_21_I02_50_mm_insulation_board,  !- Name
+  Wall,                                   !- Surface Type
+  I02_50_mm_insulation_board,             !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  2.0584819676799, -19.4704195611564, 3.82215190178207, !- X,Y,Z Vertex 1 {m}
+  -19.387356075929, -21.5274497206793, 3.97942510678649, !- X,Y,Z Vertex 2 {m}
+  -0.0396532051108699, -22.3155273683536, 2.13881235573657; !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_22_I02_50_mm_insulation_board,  !- Name
+  Wall,                                   !- Surface Type
+  I02_50_mm_insulation_board,             !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  22.3292624934393, -19.5035885113479, 2.08359990144177, !- X,Y,Z Vertex 1 {m}
+  -0.0396532051108699, -22.3155273683536, 2.13881235573657, !- X,Y,Z Vertex 2 {m}
+  21.6377721545075, -20.5414652998511, 0; !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_23_I02_50_mm_insulation_board,  !- Name
+  Wall,                                   !- Surface Type
+  I02_50_mm_insulation_board,             !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  2.0584819676799, -19.4704195611564, 3.82215190178207, !- X,Y,Z Vertex 1 {m}
+  -0.0396532051108699, -22.3155273683536, 2.13881235573657, !- X,Y,Z Vertex 2 {m}
+  22.3292624934393, -19.5035885113479, 2.08359990144177; !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_24_generic_window_frame,        !- Name
+  Wall,                                   !- Surface Type
+  generic_window_frame,                   !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  22.9577291153106, -16.8421484983799, 4.30529881625323, !- X,Y,Z Vertex 1 {m}
+  19.6000588870661, 2.25906763084006, 4.66526881338827, !- X,Y,Z Vertex 2 {m}
+  2.0584819676799, -19.4704195611564, 3.82215190178207; !- X,Y,Z Vertex 3 {m}
+
+FenestrationSurface:Detailed,
+  subsurface_24_low_iron_3mm,             !- Name
+  Window,                                 !- Surface Type
+  low_iron_3mm,                           !- Construction Name
+  surface_24_generic_window_frame,        !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Frame and Divider Name
+  ,                                       !- Multiplier
+  ,                                       !- Number of Vertices
+  22.9494564742864, -16.8365305231428, 4.3052568076829, !- X,Y,Z Vertex 1 {m}
+  19.5967786822379, 2.24962502288387, 4.66499058457778, !- X,Y,Z Vertex 2 {m}
+  2.06692539103432, -19.465069445234, 3.82244321205532; !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_25_generic_window_frame,        !- Name
+  Wall,                                   !- Surface Type
+  generic_window_frame,                   !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  19.6000588870661, 2.25906763084006, 4.66526881338827, !- X,Y,Z Vertex 1 {m}
+  16.0454910932967, 21.7669443886643, 5.58077657272919, !- X,Y,Z Vertex 2 {m}
+  -0.55757506245555, 0.0586414809563838, 5.12116548965128; !- X,Y,Z Vertex 3 {m}
+
+FenestrationSurface:Detailed,
+  subsurface_25_low_iron_3mm,             !- Name
+  Window,                                 !- Surface Type
+  low_iron_3mm,                           !- Construction Name
+  surface_25_generic_window_frame,        !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Frame and Divider Name
+  ,                                       !- Multiplier
+  ,                                       !- Number of Vertices
+  19.5919904178095, 2.26495677747649, 4.66573545645443, !- X,Y,Z Vertex 1 {m}
+  16.0424743939468, 21.7574155663469, 5.58045865721103, !- X,Y,Z Vertex 2 {m}
+  -0.549192114006411, 0.0640936525037223, 5.12116633668849; !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_26_generic_window_frame,        !- Name
+  Wall,                                   !- Surface Type
+  generic_window_frame,                   !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  2.0584819676799, -19.4704195611564, 3.82215190178207, !- X,Y,Z Vertex 1 {m}
+  -0.55757506245555, 0.0586414809563838, 5.12116548965128, !- X,Y,Z Vertex 2 {m}
+  -19.387356075929, -21.5274497206793, 3.97942510678649; !- X,Y,Z Vertex 3 {m}
+
+FenestrationSurface:Detailed,
+  subsurface_26_low_iron_3mm,             !- Name
+  Window,                                 !- Surface Type
+  low_iron_3mm,                           !- Construction Name
+  surface_26_generic_window_frame,        !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Frame and Divider Name
+  ,                                       !- Multiplier
+  ,                                       !- Number of Vertices
+  2.05039989160132, -19.4645509343334, 3.82264104948287, !- X,Y,Z Vertex 1 {m}
+  -0.561238025544402, 0.0493528508294542, 5.12061408075145, !- X,Y,Z Vertex 2 {m}
+  -19.3787341217501, -21.5223883482213, 3.97963585540059; !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_27_generic_window_frame,        !- Name
+  Wall,                                   !- Surface Type
+  generic_window_frame,                   !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  19.6000588870661, 2.25906763084006, 4.66526881338827, !- X,Y,Z Vertex 1 {m}
+  -0.55757506245555, 0.0586414809563838, 5.12116548965128, !- X,Y,Z Vertex 2 {m}
+  2.0584819676799, -19.4704195611564, 3.82215190178207; !- X,Y,Z Vertex 3 {m}
+
+FenestrationSurface:Detailed,
+  subsurface_27_low_iron_3mm,             !- Name
+  Window,                                 !- Surface Type
+  low_iron_3mm,                           !- Construction Name
+  surface_27_generic_window_frame,        !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Frame and Divider Name
+  ,                                       !- Multiplier
+  ,                                       !- Number of Vertices
+  19.5916164588872, 2.2537087235829, 4.66518209860165, !- X,Y,Z Vertex 1 {m}
+  -0.549631836670621, 0.0525974339191019, 5.12055339526251, !- X,Y,Z Vertex 2 {m}
+  2.06187972775192, -19.4610271481041, 3.82263955283437; !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_28_I02_50_mm_insulation_board,  !- Name
+  Wall,                                   !- Surface Type
+  I02_50_mm_insulation_board,             !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  -20.861618422021, 13.9108873066991, 7.01525794848009, !- X,Y,Z Vertex 1 {m}
+  -2.94782697668029, 18.6753683994338, 5.9678587082942, !- X,Y,Z Vertex 2 {m}
+  -21.9678059020953, 21.8591499476171, 3.11940644870871; !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_29_I02_50_mm_insulation_board,  !- Name
+  Wall,                                   !- Surface Type
+  I02_50_mm_insulation_board,             !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  -2.94782697668029, 18.6753683994338, 5.9678587082942, !- X,Y,Z Vertex 1 {m}
+  16.0454910932967, 21.7669443886643, 5.58077657272919, !- X,Y,Z Vertex 2 {m}
+  -3.17616609036566, 25.6758781312627, 2.93388905422018; !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_2_generic_window_frame,         !- Name
+  Wall,                                   !- Surface Type
+  generic_window_frame,                   !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  -23.6668625371441, -24.8665227821618, 1.69419367236191, !- X,Y,Z Vertex 1 {m}
+  -23.7653876346572, -4.78816847853185, 3.03771867473301, !- X,Y,Z Vertex 2 {m}
+  -27.1287050595285, -23.1908347164922, 0; !- X,Y,Z Vertex 3 {m}
+
+FenestrationSurface:Detailed,
+  subsurface_2_clear_6mm,                 !- Name
+  Window,                                 !- Surface Type
+  clear_6mm,                              !- Construction Name
+  surface_2_generic_window_frame,         !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Frame and Divider Name
+  ,                                       !- Multiplier
+  ,                                       !- Number of Vertices
+  -23.6684774903135, -24.8566553292964, 1.69403461196689, !- X,Y,Z Vertex 1 {m}
+  -23.7662276256409, -4.79806917268217, 3.03659143452382, !- X,Y,Z Vertex 2 {m}
+  -27.1250504076792, -23.1818779620448, 0.00253378563198898; !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_30_I02_50_mm_insulation_board,  !- Name
+  Wall,                                   !- Surface Type
+  I02_50_mm_insulation_board,             !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  -21.9678059020953, 21.8591499476171, 3.11940644870871, !- X,Y,Z Vertex 1 {m}
+  -3.17616609036566, 25.6758781312627, 2.93388905422018, !- X,Y,Z Vertex 2 {m}
+  -22.1525857876614, 28.940878656546, 0;  !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_31_I02_50_mm_insulation_board,  !- Name
+  Wall,                                   !- Surface Type
+  I02_50_mm_insulation_board,             !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  -2.94782697668029, 18.6753683994338, 5.9678587082942, !- X,Y,Z Vertex 1 {m}
+  -3.17616609036566, 25.6758781312627, 2.93388905422018, !- X,Y,Z Vertex 2 {m}
+  -21.9678059020953, 21.8591499476171, 3.11940644870871; !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_32_M16_300mm_heavyweight_concrete, !- Name
+  Floor,                                  !- Surface Type
+  M16_300mm_heavyweight_concrete,         !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Ground,                                 !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  29.1006259832723, 22.9388455468497, 0,  !- X,Y,Z Vertex 1 {m}
+  25.6542441275935, 1.09737470853518, 0,  !- X,Y,Z Vertex 2 {m}
+  2.63242057543177, 26.4093197876334, 0;  !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_33_M16_300mm_heavyweight_concrete, !- Name
+  Floor,                                  !- Surface Type
+  M16_300mm_heavyweight_concrete,         !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Ground,                                 !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  25.6542441275935, 1.09737470853518, 0,  !- X,Y,Z Vertex 1 {m}
+  21.6377721545075, -20.5414652998511, 0, !- X,Y,Z Vertex 2 {m}
+  -2.85267772202379, 1.87975658985931, 0; !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_34_M16_300mm_heavyweight_concrete, !- Name
+  Floor,                                  !- Surface Type
+  M16_300mm_heavyweight_concrete,         !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Ground,                                 !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  2.63242057543177, 26.4093197876334, 0,  !- X,Y,Z Vertex 1 {m}
+  -2.85267772202379, 1.87975658985931, 0, !- X,Y,Z Vertex 2 {m}
+  -22.1525857876614, 28.940878656546, 0;  !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_35_M16_300mm_heavyweight_concrete, !- Name
+  Floor,                                  !- Surface Type
+  M16_300mm_heavyweight_concrete,         !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Ground,                                 !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  25.6542441275935, 1.09737470853518, 0,  !- X,Y,Z Vertex 1 {m}
+  -2.85267772202379, 1.87975658985931, 0, !- X,Y,Z Vertex 2 {m}
+  2.63242057543177, 26.4093197876334, 0;  !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_36_M08_200mm_lightweight_concrete_block_filled, !- Name
+  Wall,                                   !- Surface Type
+  M08_200mm_lightweight_concrete_block_filled, !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  -22.1525857876614, 28.940878656546, 0,  !- X,Y,Z Vertex 1 {m}
+  -3.17616609036566, 25.6758781312627, 2.93388905422018, !- X,Y,Z Vertex 2 {m}
+  2.63242057543177, 26.4093197876334, 0;  !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_37_M08_200mm_lightweight_concrete_block_filled, !- Name
+  Wall,                                   !- Surface Type
+  M08_200mm_lightweight_concrete_block_filled, !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  -3.17616609036566, 25.6758781312627, 2.93388905422018, !- X,Y,Z Vertex 1 {m}
+  16.0454910932967, 21.7669443886643, 5.58077657272919, !- X,Y,Z Vertex 2 {m}
+  23.0994903176962, 23.0739114874853, 3.05150758549416; !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_38_M08_200mm_lightweight_concrete_block_filled, !- Name
+  Wall,                                   !- Surface Type
+  M08_200mm_lightweight_concrete_block_filled, !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  2.63242057543177, 26.4093197876334, 0,  !- X,Y,Z Vertex 1 {m}
+  23.0994903176962, 23.0739114874853, 3.05150758549416, !- X,Y,Z Vertex 2 {m}
+  29.1006259832723, 22.9388455468497, 0;  !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_39_M08_200mm_lightweight_concrete_block_filled, !- Name
+  Wall,                                   !- Surface Type
+  M08_200mm_lightweight_concrete_block_filled, !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  -3.17616609036566, 25.6758781312627, 2.93388905422018, !- X,Y,Z Vertex 1 {m}
+  23.0994903176962, 23.0739114874853, 3.05150758549416, !- X,Y,Z Vertex 2 {m}
+  2.63242057543177, 26.4093197876334, 0;  !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_3_I02_50_mm_insulation_board,   !- Name
+  Wall,                                   !- Surface Type
+  I02_50_mm_insulation_board,             !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  -20.0646275777858, -4.59519368189774, 4.89926413647951, !- X,Y,Z Vertex 1 {m}
+  -23.7653876346572, -4.78816847853185, 3.03771867473301, !- X,Y,Z Vertex 2 {m}
+  -23.6668625371441, -24.8665227821618, 1.69419367236191; !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_40_generic_window_frame,        !- Name
+  Wall,                                   !- Surface Type
+  generic_window_frame,                   !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  29.1006259832723, 22.9388455468497, 0,  !- X,Y,Z Vertex 1 {m}
+  25.5531480308095, 2.43568038320467, 1.6284071852735, !- X,Y,Z Vertex 2 {m}
+  25.6542441275935, 1.09737470853518, 0;  !- X,Y,Z Vertex 3 {m}
+
+FenestrationSurface:Detailed,
+  subsurface_40_low_iron_3mm,             !- Name
+  Window,                                 !- Surface Type
+  low_iron_3mm,                           !- Construction Name
+  surface_40_generic_window_frame,        !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Frame and Divider Name
+  ,                                       !- Multiplier
+  ,                                       !- Number of Vertices
+  29.098997580549, 22.9289863099657, 0.000379147247423187, !- X,Y,Z Vertex 1 {m}
+  25.5549926968928, 2.44536985800044, 1.62676058719768, !- X,Y,Z Vertex 2 {m}
+  25.6556690801654, 1.10724832906819, 0.000693633720394446; !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_41_generic_window_frame,        !- Name
+  Wall,                                   !- Surface Type
+  generic_window_frame,                   !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  25.5531480308095, 2.43568038320467, 1.6284071852735, !- X,Y,Z Vertex 1 {m}
+  22.9577291153106, -16.8421484983799, 4.30529881625323, !- X,Y,Z Vertex 2 {m}
+  22.3292624934393, -19.5035885113479, 2.08359990144177; !- X,Y,Z Vertex 3 {m}
+
+FenestrationSurface:Detailed,
+  subsurface_41_low_iron_3mm,             !- Name
+  Window,                                 !- Surface Type
+  low_iron_3mm,                           !- Construction Name
+  surface_41_generic_window_frame,        !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Frame and Divider Name
+  ,                                       !- Multiplier
+  ,                                       !- Number of Vertices
+  25.5517539698374, 2.42580649744049, 1.62915750115492, !- X,Y,Z Vertex 1 {m}
+  22.9588572964727, -16.8326178671773, 4.30248914080126, !- X,Y,Z Vertex 2 {m}
+  22.3308057124919, -19.4937336795143, 2.08430754859073; !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_42_generic_window_frame,        !- Name
+  Wall,                                   !- Surface Type
+  generic_window_frame,                   !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  25.6542441275935, 1.09737470853518, 0,  !- X,Y,Z Vertex 1 {m}
+  22.3292624934393, -19.5035885113479, 2.08359990144177, !- X,Y,Z Vertex 2 {m}
+  21.6377721545075, -20.5414652998511, 0; !- X,Y,Z Vertex 3 {m}
+
+FenestrationSurface:Detailed,
+  subsurface_42_low_iron_3mm,             !- Name
+  Window,                                 !- Surface Type
+  low_iron_3mm,                           !- Construction Name
+  surface_42_generic_window_frame,        !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Frame and Divider Name
+  ,                                       !- Multiplier
+  ,                                       !- Number of Vertices
+  25.6525337757362, 1.08753402441898, 0.00048542007508523, !- X,Y,Z Vertex 1 {m}
+  22.3305678422656, -19.4938916302692, 2.08153433571106, !- X,Y,Z Vertex 2 {m}
+  21.6397967525687, -20.5317134722408, 0.000896025082894885; !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_43_generic_window_frame,        !- Name
+  Wall,                                   !- Surface Type
+  generic_window_frame,                   !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  25.5531480308095, 2.43568038320467, 1.6284071852735, !- X,Y,Z Vertex 1 {m}
+  22.3292624934393, -19.5035885113479, 2.08359990144177, !- X,Y,Z Vertex 2 {m}
+  25.6542441275935, 1.09737470853518, 0;  !- X,Y,Z Vertex 3 {m}
+
+FenestrationSurface:Detailed,
+  subsurface_43_low_iron_3mm,             !- Name
+  Window,                                 !- Surface Type
+  low_iron_3mm,                           !- Construction Name
+  surface_43_generic_window_frame,        !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Frame and Divider Name
+  ,                                       !- Multiplier
+  ,                                       !- Number of Vertices
+  25.5518200541112, 2.42578151643546, 1.62790827187997, !- X,Y,Z Vertex 1 {m}
+  22.3307813821842, -19.4937220904733, 2.08301107540032, !- X,Y,Z Vertex 2 {m}
+  25.6525236899497, 1.08770178113446, 0.00186401979978657; !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_44_generic_window_frame,        !- Name
+  Wall,                                   !- Surface Type
+  generic_window_frame,                   !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  16.0454910932967, 21.7669443886643, 5.58077657272919, !- X,Y,Z Vertex 1 {m}
+  19.6000588870661, 2.25906763084006, 4.66526881338827, !- X,Y,Z Vertex 2 {m}
+  23.0994903176962, 23.0739114874853, 3.05150758549416; !- X,Y,Z Vertex 3 {m}
+
+FenestrationSurface:Detailed,
+  subsurface_44_clear_6mm,                !- Name
+  Window,                                 !- Surface Type
+  clear_6mm,                              !- Construction Name
+  surface_44_generic_window_frame,        !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Frame and Divider Name
+  ,                                       !- Multiplier
+  ,                                       !- Number of Vertices
+  16.0504607469654, 21.7584180516664, 5.57916284418626, !- X,Y,Z Vertex 1 {m}
+  19.6000452153579, 2.26906612250513, 4.66509567324845, !- X,Y,Z Vertex 2 {m}
+  23.0952448102998, 23.0650121716986, 3.05317427246986; !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_45_generic_window_frame,        !- Name
+  Wall,                                   !- Surface Type
+  generic_window_frame,                   !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  19.6000588870661, 2.25906763084006, 4.66526881338827, !- X,Y,Z Vertex 1 {m}
+  22.9577291153106, -16.8421484983799, 4.30529881625323, !- X,Y,Z Vertex 2 {m}
+  25.5531480308095, 2.43568038320467, 1.6284071852735; !- X,Y,Z Vertex 3 {m}
+
+FenestrationSurface:Detailed,
+  subsurface_45_clear_6mm,                !- Name
+  Window,                                 !- Surface Type
+  clear_6mm,                              !- Construction Name
+  surface_45_generic_window_frame,        !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Frame and Divider Name
+  ,                                       !- Multiplier
+  ,                                       !- Number of Vertices
+  19.6044172850335, 2.25020895996286, 4.6636787450104, !- X,Y,Z Vertex 1 {m}
+  22.95753090386, -16.8321686320836, 4.30469633726715, !- X,Y,Z Vertex 2 {m}
+  25.5492631449609, 2.42683927496996, 1.63100381137773; !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_46_generic_window_frame,        !- Name
+  Wall,                                   !- Surface Type
+  generic_window_frame,                   !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  23.0994903176962, 23.0739114874853, 3.05150758549416, !- X,Y,Z Vertex 1 {m}
+  25.5531480308095, 2.43568038320467, 1.6284071852735, !- X,Y,Z Vertex 2 {m}
+  29.1006259832723, 22.9388455468497, 0;  !- X,Y,Z Vertex 3 {m}
+
+FenestrationSurface:Detailed,
+  subsurface_46_clear_6mm,                !- Name
+  Window,                                 !- Surface Type
+  clear_6mm,                              !- Construction Name
+  surface_46_generic_window_frame,        !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Frame and Divider Name
+  ,                                       !- Multiplier
+  ,                                       !- Number of Vertices
+  23.103187215182, 23.0648282673311, 3.04955104246922, !- X,Y,Z Vertex 1 {m}
+  25.5534138021127, 2.44567672639372, 1.62835730079536, !- X,Y,Z Vertex 2 {m}
+  29.0964702350013, 22.9299809413147, 0.00203679282617616; !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_47_I02_50_mm_insulation_board,  !- Name
+  Wall,                                   !- Surface Type
+  I02_50_mm_insulation_board,             !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  19.6000588870661, 2.25906763084006, 4.66526881338827, !- X,Y,Z Vertex 1 {m}
+  25.5531480308095, 2.43568038320467, 1.6284071852735, !- X,Y,Z Vertex 2 {m}
+  23.0994903176962, 23.0739114874853, 3.05150758549416; !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_4_generic_window_frame,         !- Name
+  Wall,                                   !- Surface Type
+  generic_window_frame,                   !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  21.6377721545075, -20.5414652998511, 0, !- X,Y,Z Vertex 1 {m}
+  -0.0396532051108699, -22.3155273683536, 2.13881235573657, !- X,Y,Z Vertex 2 {m}
+  -4.62883695191084, -23.5727973388249, 0; !- X,Y,Z Vertex 3 {m}
+
+FenestrationSurface:Detailed,
+  subsurface_4_clear_6mm,                 !- Name
+  Window,                                 !- Surface Type
+  clear_6mm,                              !- Construction Name
+  surface_4_generic_window_frame,         !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Frame and Divider Name
+  ,                                       !- Multiplier
+  ,                                       !- Number of Vertices
+  21.6278317966863, -20.5424616143547, 0.000443445370528011, !- X,Y,Z Vertex 1 {m}
+  -0.0299566956974744, -22.315234121128, 2.13638507098595, !- X,Y,Z Vertex 2 {m}
+  -4.61895542565258, -23.571423919786, 0.000684951787019519; !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_5_generic_window_frame,         !- Name
+  Wall,                                   !- Surface Type
+  generic_window_frame,                   !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  -0.0396532051108699, -22.3155273683536, 2.13881235573657, !- X,Y,Z Vertex 1 {m}
+  -19.387356075929, -21.5274497206793, 3.97942510678649, !- X,Y,Z Vertex 2 {m}
+  -23.6668625371441, -24.8665227821618, 1.69419367236191; !- X,Y,Z Vertex 3 {m}
+
+FenestrationSurface:Detailed,
+  subsurface_5_clear_6mm,                 !- Name
+  Window,                                 !- Surface Type
+  clear_6mm,                              !- Construction Name
+  surface_5_generic_window_frame,         !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Frame and Divider Name
+  ,                                       !- Multiplier
+  ,                                       !- Number of Vertices
+  -0.0496395430996076, -22.3159370281238, 2.13913675124725, !- X,Y,Z Vertex 1 {m}
+  -19.3780309989501, -21.5300038417579, 3.97687179426079, !- X,Y,Z Vertex 2 {m}
+  -23.6571226096103, -24.8644670461683, 1.69514643737096; !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_6_I02_50_mm_insulation_board,   !- Name
+  Wall,                                   !- Surface Type
+  I02_50_mm_insulation_board,             !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  -4.62883695191084, -23.5727973388249, 0, !- X,Y,Z Vertex 1 {m}
+  -23.6668625371441, -24.8665227821618, 1.69419367236191, !- X,Y,Z Vertex 2 {m}
+  -27.1287050595285, -23.1908347164922, 0; !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_7_generic_window_frame,         !- Name
+  Wall,                                   !- Surface Type
+  generic_window_frame,                   !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  -0.0396532051108699, -22.3155273683536, 2.13881235573657, !- X,Y,Z Vertex 1 {m}
+  -23.6668625371441, -24.8665227821618, 1.69419367236191, !- X,Y,Z Vertex 2 {m}
+  -4.62883695191084, -23.5727973388249, 0; !- X,Y,Z Vertex 3 {m}
+
+FenestrationSurface:Detailed,
+  subsurface_7_clear_6mm,                 !- Name
+  Window,                                 !- Surface Type
+  clear_6mm,                              !- Construction Name
+  surface_7_generic_window_frame,         !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Frame and Divider Name
+  ,                                       !- Multiplier
+  ,                                       !- Number of Vertices
+  -0.0495228069200694, -22.3168594331154, 2.13790871665038, !- X,Y,Z Vertex 1 {m}
+  -23.6569071283753, -24.8656256637513, 1.69390209937921, !- X,Y,Z Vertex 2 {m}
+  -4.63850259846409, -23.5728217259502, 0.00256411426731216; !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_8_M08_200mm_lightweight_concrete_block_filled, !- Name
+  Wall,                                   !- Surface Type
+  M08_200mm_lightweight_concrete_block_filled, !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  -27.1287050595285, -23.1908347164922, 0, !- X,Y,Z Vertex 1 {m}
+  -23.7653876346572, -4.78816847853185, 3.03771867473301, !- X,Y,Z Vertex 2 {m}
+  -24.7028372805193, 2.7011267130169, 0;  !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  surface_9_M08_200mm_lightweight_concrete_block_filled, !- Name
+  Wall,                                   !- Surface Type
+  M08_200mm_lightweight_concrete_block_filled, !- Construction Name
+  Main Zone,                              !- Zone Name
+  Main Space,                             !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  -23.7653876346572, -4.78816847853185, 3.03771867473301, !- X,Y,Z Vertex 1 {m}
+  -20.861618422021, 13.9108873066991, 7.01525794848009, !- X,Y,Z Vertex 2 {m}
+  -21.9678059020953, 21.8591499476171, 3.11940644870871; !- X,Y,Z Vertex 3 {m}
+
+Daylighting:Controls,
+  Main Zone DaylightingControls,          !- Name
+  Main Zone,                              !- Zone or Space Name
+  ,                                       !- Daylighting Method
+  ,                                       !- Availability Schedule Name
+  Continuous,                             !- Lighting Control Type
+  0.3,                                    !- Minimum Input Power Fraction for Continuous or ContinuousOff Dimming Control
+  0.2,                                    !- Minimum Light Output Fraction for Continuous or ContinuousOff Dimming Control
+  1,                                      !- Number of Stepped Control Steps
+  1,                                      !- Probability Lighting will be Reset When Needed in Manual Stepped Control
+  Daylighting Control,                    !- Glare Calculation Daylighting Reference Point Name
+  -0,                                     !- Glare Calculation Azimuth Angle of View Direction Clockwise from Zone y-Axis {deg}
+  ,                                       !- Maximum Allowable Discomfort Glare Index
+  ,                                       !- DElight Gridding Resolution {m2}
+  Daylighting Control,                    !- Daylighting Reference Point Name 1
+  1,                                      !- Fraction of Lights Controlled by Reference Point 1
+  500;                                    !- Illuminance Setpoint at Reference Point 1 {lux}
+
+Daylighting:ReferencePoint,
+  Daylighting Control,                    !- Name
+  Main Zone,                              !- Zone or Space Name
+  0.703055425039447,                      !- X-Coordinate of Reference Point {m}
+  3.23645431652943,                       !- Y-Coordinate of Reference Point {m}
+  0.3;                                    !- Z-Coordinate of Reference Point {m}
+
+Output:IlluminanceMap,
+  Floor Illuminance Map,                  !- Name
+  Main Zone,                              !- Zone or Space Name
+  0.3,                                    !- Z height {m}
+  -26.296549473215,                       !- X Minimum Coordinate {m}
+  28.0106419674268,                       !- X Maximum Coordinate {m}
+  5,                                      !- Number of X Grid Points
+  -23.3018842722332,                      !- Y Minimum Coordinate {m}
+  28.107021397637,                        !- Y Maximum Coordinate {m}
+  5;                                      !- Number of Y Grid Points
+
+ZoneControl:Thermostat,
+  Main Zone Thermostat,                   !- Name
+  Main Zone,                              !- Zone or ZoneList Name
+  Main Zone Thermostat Schedule,          !- Control Type Schedule Name
+  ThermostatSetpoint:DualSetpoint,        !- Control 1 Object Type
+  Thermostat Setpoint Dual Setpoint 1,    !- Control 1 Name
+  ,                                       !- Control 2 Object Type
+  ,                                       !- Control 2 Name
+  ,                                       !- Control 3 Object Type
+  ,                                       !- Control 3 Name
+  ,                                       !- Control 4 Object Type
+  ,                                       !- Control 4 Name
+  0;                                      !- Temperature Difference Between Cutout And Setpoint {deltaC}
+
+Schedule:Compact,
+  Main Zone Thermostat Schedule,          !- Name
+  Main Zone Thermostat Schedule Type Limits, !- Schedule Type Limits Name
+  Through: 12/31,                         !- Field 1
+  For: AllDays,                           !- Field 2
+  Until: 24:00,                           !- Field 3
+  4;                                      !- Field 4
+
+ScheduleTypeLimits,
+  Main Zone Thermostat Schedule Type Limits, !- Name
+  0,                                      !- Lower Limit Value {BasedOnField A3}
+  4,                                      !- Upper Limit Value {BasedOnField A3}
+  DISCRETE;                               !- Numeric Type
+
+ThermostatSetpoint:DualSetpoint,
+  Thermostat Setpoint Dual Setpoint 1,    !- Name
+  Schedule Ruleset 1,                     !- Heating Setpoint Temperature Schedule Name
+  Schedule Ruleset 2;                     !- Cooling Setpoint Temperature Schedule Name
+
+ScheduleTypeLimits,
+  Temperature,                            !- Name
+  ,                                       !- Lower Limit Value {BasedOnField A3}
+  ,                                       !- Upper Limit Value {BasedOnField A3}
+  Continuous,                             !- Numeric Type
+  temperature;                            !- Unit Type
+
+Schedule:Day:Interval,
+  Schedule Day 1,                         !- Name
+  Temperature,                            !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
+  24:00,                                  !- Time 1 {hh:mm}
+  25.9988523049979;                       !- Value Until Time 1
+
+Schedule:Week:Daily,
+  Schedule Ruleset 1 Week Rule - Jan1-Dec31, !- Name
+  Schedule Day 1,                         !- Sunday Schedule:Day Name
+  Schedule Day 1,                         !- Monday Schedule:Day Name
+  Schedule Day 1,                         !- Tuesday Schedule:Day Name
+  Schedule Day 1,                         !- Wednesday Schedule:Day Name
+  Schedule Day 1,                         !- Thursday Schedule:Day Name
+  Schedule Day 1,                         !- Friday Schedule:Day Name
+  Schedule Day 1,                         !- Saturday Schedule:Day Name
+  Schedule Day 1,                         !- Holiday Schedule:Day Name
+  Schedule Day 1,                         !- SummerDesignDay Schedule:Day Name
+  Schedule Day 1,                         !- WinterDesignDay Schedule:Day Name
+  Schedule Day 1,                         !- CustomDay1 Schedule:Day Name
+  Schedule Day 1;                         !- CustomDay2 Schedule:Day Name
+
+Schedule:Year,
+  Schedule Ruleset 1,                     !- Name
+  Temperature,                            !- Schedule Type Limits Name
+  Schedule Ruleset 1 Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  1,                                      !- Start Month 1
+  1,                                      !- Start Day 1
+  12,                                     !- End Month 1
+  31;                                     !- End Day 1
+
+Schedule:Day:Interval,
+  Schedule Day 2,                         !- Name
+  Temperature,                            !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
+  24:00,                                  !- Time 1 {hh:mm}
+  25.9988523049979;                       !- Value Until Time 1
+
+Schedule:Week:Daily,
+  Schedule Ruleset 2 Week Rule - Jan1-Dec31, !- Name
+  Schedule Day 2,                         !- Sunday Schedule:Day Name
+  Schedule Day 2,                         !- Monday Schedule:Day Name
+  Schedule Day 2,                         !- Tuesday Schedule:Day Name
+  Schedule Day 2,                         !- Wednesday Schedule:Day Name
+  Schedule Day 2,                         !- Thursday Schedule:Day Name
+  Schedule Day 2,                         !- Friday Schedule:Day Name
+  Schedule Day 2,                         !- Saturday Schedule:Day Name
+  Schedule Day 2,                         !- Holiday Schedule:Day Name
+  Schedule Day 2,                         !- SummerDesignDay Schedule:Day Name
+  Schedule Day 2,                         !- WinterDesignDay Schedule:Day Name
+  Schedule Day 2,                         !- CustomDay1 Schedule:Day Name
+  Schedule Day 2;                         !- CustomDay2 Schedule:Day Name
+
+Schedule:Year,
+  Schedule Ruleset 2,                     !- Name
+  Temperature,                            !- Schedule Type Limits Name
+  Schedule Ruleset 2 Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  1,                                      !- Start Month 1
+  1,                                      !- Start Day 1
+  12,                                     !- End Month 1
+  31;                                     !- End Day 1
+
+ZoneHVAC:EquipmentConnections,
+  Main Zone,                              !- Zone Name
+  Main Zone Equipment List,               !- Zone Conditioning Equipment List Name
+  Main Zone Inlet Node List,              !- Zone Air Inlet Node or NodeList Name
+  Main Zone Exhaust Node List,            !- Zone Air Exhaust Node or NodeList Name
+  Node 1;                                 !- Zone Air Node Name
+
+NodeList,
+  Main Zone Inlet Node List,              !- Name
+  Node 3;                                 !- Node Name 1
+
+NodeList,
+  Main Zone Exhaust Node List,            !- Name
+  Node 2;                                 !- Node Name 1
+
+ZoneHVAC:IdealLoadsAirSystem,
+  Zone HVAC Ideal Loads Air System 1,     !- Name
+  ,                                       !- Availability Schedule Name
+  Node 3,                                 !- Zone Supply Air Node Name
+  Node 2,                                 !- Zone Exhaust Air Node Name
+  ,                                       !- System Inlet Air Node Name
+  ,                                       !- Maximum Heating Supply Air Temperature {C}
+  ,                                       !- Minimum Cooling Supply Air Temperature {C}
+  ,                                       !- Maximum Heating Supply Air Humidity Ratio {kgWater/kgDryAir}
+  ,                                       !- Minimum Cooling Supply Air Humidity Ratio {kgWater/kgDryAir}
+  ,                                       !- Heating Limit
+  ,                                       !- Maximum Heating Air Flow Rate {m3/s}
+  ,                                       !- Maximum Sensible Heating Capacity {W}
+  ,                                       !- Cooling Limit
+  ,                                       !- Maximum Cooling Air Flow Rate {m3/s}
+  ,                                       !- Maximum Total Cooling Capacity {W}
+  ,                                       !- Heating Availability Schedule Name
+  ,                                       !- Cooling Availability Schedule Name
+  ,                                       !- Dehumidification Control Type
+  ,                                       !- Cooling Sensible Heat Ratio {dimensionless}
+  ,                                       !- Humidification Control Type
+  ,                                       !- Design Specification Outdoor Air Object Name
+  ,                                       !- Outdoor Air Inlet Node Name
+  ,                                       !- Demand Controlled Ventilation Type
+  ,                                       !- Outdoor Air Economizer Type
+  ,                                       !- Heat Recovery Type
+  ,                                       !- Sensible Heat Recovery Effectiveness {dimensionless}
+  ;                                       !- Latent Heat Recovery Effectiveness {dimensionless}
+
+ZoneHVAC:EquipmentList,
+  Main Zone Equipment List,               !- Name
+  SequentialLoad,                         !- Load Distribution Scheme
+  ZoneHVAC:IdealLoadsAirSystem,           !- Zone Equipment Object Type 1
+  Zone HVAC Ideal Loads Air System 1,     !- Zone Equipment Name 1
+  1,                                      !- Zone Equipment Cooling Sequence 1
+  1,                                      !- Zone Equipment Heating or No-Load Sequence 1
+  ,                                       !- Zone Equipment Sequential Cooling Fraction Schedule Name 1
+  ;                                       !- Zone Equipment Sequential Heating Fraction Schedule Name 1
+
+SimulationControl,
+  No,                                     !- Do Zone Sizing Calculation
+  No,                                     !- Do System Sizing Calculation
+  No,                                     !- Do Plant Sizing Calculation
+  No,                                     !- Run Simulation for Sizing Periods
+  Yes,                                    !- Run Simulation for Weather File Run Periods
+  ,                                       !- Do HVAC Sizing Simulation for Sizing Periods
+  ;                                       !- Maximum Number of HVAC Sizing Simulation Passes
+
+Sizing:Parameters,
+  1.25,                                   !- Heating Sizing Factor
+  1.15;                                   !- Cooling Sizing Factor
+
+RunPeriod,
+  Run Period 1,                           !- Name
+  1,                                      !- Begin Month
+  1,                                      !- Begin Day of Month
+  2006,                                   !- Begin Year
+  12,                                     !- End Month
+  31,                                     !- End Day of Month
+  2006,                                   !- End Year
+  Sunday,                                 !- Day of Week for Start Day
+  No,                                     !- Use Weather File Holidays and Special Days
+  No,                                     !- Use Weather File Daylight Saving Period
+  No,                                     !- Apply Weekend Holiday Rule
+  Yes,                                    !- Use Weather File Rain Indicators
+  Yes;                                    !- Use Weather File Snow Indicators
+
+Output:Table:SummaryReports,
+  AllSummary;                             !- Report Name 1
+
+GlobalGeometryRules,
+  UpperLeftCorner,                        !- Starting Vertex Position
+  Counterclockwise,                       !- Vertex Entry Direction
+  Relative,                               !- Coordinate System
+  Relative,                               !- Daylighting Reference Point Coordinate System
+  Relative;                               !- Rectangular Surface Coordinate System
+
+Material,
+  generic_window_frame,                   !- Name
+  MediumSmooth,                           !- Roughness
+  0.1,                                    !- Thickness {m}
+  0.17,                                   !- Conductivity {W/m-K}
+  700,                                    !- Density {kg/m3}
+  1000,                                   !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+
+Material,
+  I02_50_mm_insulation_board,             !- Name
+  MediumRough,                            !- Roughness
+  0.0508,                                 !- Thickness {m}
+  0.03,                                   !- Conductivity {W/m-K}
+  43,                                     !- Density {kg/m3}
+  1210,                                   !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+
+Material,
+  M08_200mm_lightweight_concrete_block_filled, !- Name
+  MediumRough,                            !- Roughness
+  0.2032,                                 !- Thickness {m}
+  0.26,                                   !- Conductivity {W/m-K}
+  464,                                    !- Density {kg/m3}
+  880,                                    !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+
+Material,
+  M16_300mm_heavyweight_concrete,         !- Name
+  MediumRough,                            !- Roughness
+  0.3048,                                 !- Thickness {m}
+  1.95,                                   !- Conductivity {W/m-K}
+  2240,                                   !- Density {kg/m3}
+  900,                                    !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+
+WindowMaterial:Glazing,
+  clear_6mm,                              !- Name
+  SpectralAverage,                        !- Optical Data Type
+  ,                                       !- Window Glass Spectral Data Set Name
+  0.006,                                  !- Thickness {m}
+  0.775,                                  !- Solar Transmittance at Normal Incidence
+  0.071,                                  !- Front Side Solar Reflectance at Normal Incidence
+  0.071,                                  !- Back Side Solar Reflectance at Normal Incidence
+  0.881,                                  !- Visible Transmittance at Normal Incidence
+  0.08,                                   !- Front Side Visible Reflectance at Normal Incidence
+  0.08,                                   !- Back Side Visible Reflectance at Normal Incidence
+  0,                                      !- Infrared Transmittance at Normal Incidence
+  0.84,                                   !- Front Side Infrared Hemispherical Emissivity
+  0.84,                                   !- Back Side Infrared Hemispherical Emissivity
+  0.9;                                    !- Conductivity {W/m-K}
+
+WindowMaterial:Glazing,
+  low_iron_3mm,                           !- Name
+  SpectralAverage,                        !- Optical Data Type
+  ,                                       !- Window Glass Spectral Data Set Name
+  0.003,                                  !- Thickness {m}
+  0.899,                                  !- Solar Transmittance at Normal Incidence
+  0.079,                                  !- Front Side Solar Reflectance at Normal Incidence
+  0.079,                                  !- Back Side Solar Reflectance at Normal Incidence
+  0.913,                                  !- Visible Transmittance at Normal Incidence
+  0.082,                                  !- Front Side Visible Reflectance at Normal Incidence
+  0.082,                                  !- Back Side Visible Reflectance at Normal Incidence
+  0,                                      !- Infrared Transmittance at Normal Incidence
+  0.84,                                   !- Front Side Infrared Hemispherical Emissivity
+  0.84,                                   !- Back Side Infrared Hemispherical Emissivity
+  0.9;                                    !- Conductivity {W/m-K}
+
+Construction,
+  clear_6mm,                              !- Name
+  clear_6mm;                              !- Layer 1
+
+Construction,
+  generic_window_frame,                   !- Name
+  generic_window_frame;                   !- Layer 1
+
+Construction,
+  I02_50_mm_insulation_board,             !- Name
+  I02_50_mm_insulation_board;             !- Layer 1
+
+Construction,
+  low_iron_3mm,                           !- Name
+  low_iron_3mm;                           !- Layer 1
+
+Construction,
+  M08_200mm_lightweight_concrete_block_filled, !- Name
+  M08_200mm_lightweight_concrete_block_filled; !- Layer 1
+
+Construction,
+  M16_300mm_heavyweight_concrete,         !- Name
+  M16_300mm_heavyweight_concrete;         !- Layer 1
+
+Construction:AirBoundary,
+  Construction Air Boundary 1,            !- Name
+  None,                                   !- Air Exchange Method
+  0,                                      !- Simple Mixing Air Changes per Hour {1/hr}
+  ;                                       !- Simple Mixing Schedule Name
+
+Schedule:Constant,
+  Always On Discrete,                     !- Name
+  OnOff,                                  !- Schedule Type Limits Name
+  1;                                      !- Hourly Value
+
+Schedule:Constant,
+  Always Off Discrete,                    !- Name
+  OnOff 1,                                !- Schedule Type Limits Name
+  0;                                      !- Hourly Value
+
+Schedule:Constant,
+  Always On Continuous,                   !- Name
+  Fractional,                             !- Schedule Type Limits Name
+  1;                                      !- Hourly Value
+
+ScheduleTypeLimits,
+  Fractional,                             !- Name
+  0,                                      !- Lower Limit Value {BasedOnField A3}
+  1,                                      !- Upper Limit Value {BasedOnField A3}
+  Continuous;                             !- Numeric Type
+
+ScheduleTypeLimits,
+  OnOff,                                  !- Name
+  0,                                      !- Lower Limit Value {BasedOnField A3}
+  1,                                      !- Upper Limit Value {BasedOnField A3}
+  Discrete,                               !- Numeric Type
+  availability;                           !- Unit Type
+
+ScheduleTypeLimits,
+  OnOff 1,                                !- Name
+  0,                                      !- Lower Limit Value {BasedOnField A3}
+  1,                                      !- Upper Limit Value {BasedOnField A3}
+  Discrete,                               !- Numeric Type
+  availability;                           !- Unit Type
+
+OutdoorAir:Node,
+  Model Outdoor Air Node;                 !- Name
+
+Site:GroundTemperature:BuildingSurface,
+  ,                                       !- January Ground Temperature {C}
+  ,                                       !- February Ground Temperature {C}
+  ,                                       !- March Ground Temperature {C}
+  ,                                       !- April Ground Temperature {C}
+  ,                                       !- May Ground Temperature {C}
+  ,                                       !- June Ground Temperature {C}
+  ,                                       !- July Ground Temperature {C}
+  ,                                       !- August Ground Temperature {C}
+  ,                                       !- September Ground Temperature {C}
+  ,                                       !- October Ground Temperature {C}
+  ,                                       !- November Ground Temperature {C}
+  ;                                       !- December Ground Temperature {C}
+
+Output:Meter,
+  DistrictCooling:Facility,               !- Key Name
+  Hourly;                                 !- Reporting Frequency
+
+Output:Meter,
+  DistrictHeatingWater:Facility,          !- Key Name
+  Hourly;                                 !- Reporting Frequency
+
+OutputControl:Table:Style,
+  HTML;                                   !- Column Separator
+
+Output:VariableDictionary,
+  IDF,                                    !- Key Field
+  Unsorted;                               !- Sort Option
+
+Output:SQLite,
+  SimpleAndTabular;                       !- Option Type
+
+LifeCycleCost:NonrecurringCost,
+  Default Cost,                           !- Name
+  Construction,                           !- Category
+  0,                                      !- Cost
+  ServicePeriod;                          !- Start of Costs
+
+
+Output:IlluminanceMap,
+  Centroid Illuminance Map,                    !- Name
+  Main Zone,                    !- Zone or Space Name
+  2.1390650427227484,                    !- Z height {m}
+  -24.260363714767625,                    !- X Minimum Coordinate {m}
+  24.55803233496537,                    !- X Maximum Coordinate {m}
+  5,                    !- Number of X Grid Points
+  -23.71649758724291,                    !- Y Minimum Coordinate {m}
+  26.060404017241257,                    !- Y Maximum Coordinate {m}
+  5;                    !- Number of Y Grid Points

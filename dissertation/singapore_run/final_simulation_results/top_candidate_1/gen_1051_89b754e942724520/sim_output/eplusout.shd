@@ -1,0 +1,624 @@
+Shadowing Combinations
+..Solar Distribution=FullExterior
+..In the following, only the first 10 reference surfaces will be shown.
+..But all surfaces are used in the calculations.
+==================================
+Surface=SURFACE_0_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=7
+..Surface=SURFACE_10_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_11_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_1_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_2_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_3_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_8_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_9_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_0_LOW_IRON_3MM
+==================================
+Surface=SUBSURFACE_0_LOW_IRON_3MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_10_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=7
+..Surface=SURFACE_0_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_11_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_1_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_2_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_3_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_8_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_9_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_10_CLEAR_6MM
+==================================
+Surface=SUBSURFACE_10_CLEAR_6MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_11_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=SURFACE_0_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_10_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_1_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_2_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_3_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_8_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_11_CLEAR_6MM
+==================================
+Surface=SUBSURFACE_11_CLEAR_6MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_16_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=5
+..Surface=SURFACE_20_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_23_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_24_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_26_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_27_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_16_LOW_IRON_3MM
+==================================
+Surface=SUBSURFACE_16_LOW_IRON_3MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_17_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=SURFACE_24_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_25_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_27_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_17_LOW_IRON_3MM
+==================================
+Surface=SUBSURFACE_17_LOW_IRON_3MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_18_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=5
+..Surface=SURFACE_19_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_24_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_25_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_26_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_27_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_18_LOW_IRON_3MM
+==================================
+Surface=SUBSURFACE_18_LOW_IRON_3MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_19_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=SURFACE_18_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_24_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_25_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_26_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_27_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_9_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_19_LOW_IRON_3MM
+==================================
+Surface=SUBSURFACE_19_LOW_IRON_3MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_1_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=7
+..Surface=SURFACE_0_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_10_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_11_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_26_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_31_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_3_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_9_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_1_LOW_IRON_3MM
+==================================
+Surface=SUBSURFACE_1_LOW_IRON_3MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_20_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=SURFACE_16_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_21_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_23_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_20_CLEAR_6MM
+==================================
+Surface=SUBSURFACE_20_CLEAR_6MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_21_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=SURFACE_20_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_22_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_23_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_21_CLEAR_6MM
+==================================
+Surface=SUBSURFACE_21_CLEAR_6MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_22_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=SURFACE_21_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_5_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_22_LOW_IRON_3MM
+==================================
+Surface=SUBSURFACE_22_LOW_IRON_3MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_23_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=4
+..Surface=SURFACE_16_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_20_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_21_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_6_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_23_LOW_IRON_3MM
+==================================
+Surface=SUBSURFACE_23_LOW_IRON_3MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_24_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=5
+..Surface=SURFACE_16_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_17_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_18_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_19_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_27_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_24_LOW_IRON_3MM
+==================================
+Surface=SUBSURFACE_24_LOW_IRON_3MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_25_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=SURFACE_17_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_18_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_19_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_25_LOW_IRON_3MM
+==================================
+Surface=SUBSURFACE_25_LOW_IRON_3MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_26_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=7
+..Surface=SURFACE_16_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_17_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_18_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_19_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_1_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_3_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_9_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_26_LOW_IRON_3MM
+==================================
+Surface=SUBSURFACE_26_LOW_IRON_3MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_27_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=5
+..Surface=SURFACE_16_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_17_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_18_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_19_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_24_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_27_LOW_IRON_3MM
+==================================
+Surface=SUBSURFACE_27_LOW_IRON_3MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_28_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=SURFACE_31_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_28_LOW_IRON_3MM
+==================================
+Surface=SUBSURFACE_28_LOW_IRON_3MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_29_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_29_LOW_IRON_3MM
+==================================
+Surface=SUBSURFACE_29_LOW_IRON_3MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_2_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=SURFACE_0_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_10_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_11_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_5_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_8_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_9_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_2_LOW_IRON_3MM
+==================================
+Surface=SUBSURFACE_2_LOW_IRON_3MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_30_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_30_LOW_IRON_3MM
+==================================
+Surface=SUBSURFACE_30_LOW_IRON_3MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_31_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=SURFACE_1_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_28_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_31_LOW_IRON_3MM
+==================================
+Surface=SUBSURFACE_31_LOW_IRON_3MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_36_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=SURFACE_38_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_36_LOW_IRON_3MM
+==================================
+Surface=SUBSURFACE_36_LOW_IRON_3MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_37_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_37_LOW_IRON_3MM
+==================================
+Surface=SUBSURFACE_37_LOW_IRON_3MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_38_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=SURFACE_36_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_39_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_38_LOW_IRON_3MM
+==================================
+Surface=SUBSURFACE_38_LOW_IRON_3MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_39_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=SURFACE_38_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_39_LOW_IRON_3MM
+==================================
+Surface=SUBSURFACE_39_LOW_IRON_3MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_3_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=7
+..Surface=SURFACE_0_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_10_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_11_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_1_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_26_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_8_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_9_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_3_LOW_IRON_3MM
+==================================
+Surface=SUBSURFACE_3_LOW_IRON_3MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_40_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=SURFACE_42_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_40_LOW_IRON_3MM
+==================================
+Surface=SUBSURFACE_40_LOW_IRON_3MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_41_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=SURFACE_42_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_43_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_41_LOW_IRON_3MM
+==================================
+Surface=SUBSURFACE_41_LOW_IRON_3MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_42_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=4
+..Surface=SURFACE_40_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_41_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_43_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_45_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_42_LOW_IRON_3MM
+==================================
+Surface=SUBSURFACE_42_LOW_IRON_3MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_43_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=SURFACE_41_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_42_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_43_LOW_IRON_3MM
+==================================
+Surface=SUBSURFACE_43_LOW_IRON_3MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_44_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_44_LOW_IRON_3MM
+==================================
+Surface=SUBSURFACE_44_LOW_IRON_3MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_45_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=SURFACE_42_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_45_LOW_IRON_3MM
+==================================
+Surface=SUBSURFACE_45_LOW_IRON_3MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_46_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=SURFACE_47_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_46_LOW_IRON_3MM
+==================================
+Surface=SUBSURFACE_46_LOW_IRON_3MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_47_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=SURFACE_46_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_47_LOW_IRON_3MM
+==================================
+Surface=SUBSURFACE_47_LOW_IRON_3MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_4_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=SURFACE_21_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_5_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_6_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_4_LOW_IRON_3MM
+==================================
+Surface=SUBSURFACE_4_LOW_IRON_3MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_5_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=5
+..Surface=SURFACE_22_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_2_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_6_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_7_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_8_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_5_CLEAR_6MM
+==================================
+Surface=SUBSURFACE_5_CLEAR_6MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_6_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=5
+..Surface=SURFACE_0_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_23_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_4_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_5_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_7_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_6_LOW_IRON_3MM
+==================================
+Surface=SUBSURFACE_6_LOW_IRON_3MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_7_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=SURFACE_5_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_6_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_8_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_7_LOW_IRON_3MM
+==================================
+Surface=SUBSURFACE_7_LOW_IRON_3MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_8_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=8
+..Surface=SURFACE_0_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_10_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_11_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_1_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_2_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_3_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_5_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_7_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_8_CLEAR_6MM
+==================================
+Surface=SUBSURFACE_8_CLEAR_6MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_9_GENERIC_WINDOW_FRAME is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=SURFACE_0_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_10_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_19_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_1_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_26_GENERIC_WINDOW_FRAME
+..Surface=SURFACE_3_GENERIC_WINDOW_FRAME
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUBSURFACE_9_CLEAR_6MM
+==================================
+Surface=SUBSURFACE_9_CLEAR_6MM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_12_M16_300MM_HEAVYWEIGHT_CONCRETE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_13_M16_300MM_HEAVYWEIGHT_CONCRETE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_14_M16_300MM_HEAVYWEIGHT_CONCRETE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_15_M16_300MM_HEAVYWEIGHT_CONCRETE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_32_M16_300MM_HEAVYWEIGHT_CONCRETE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_33_M16_300MM_HEAVYWEIGHT_CONCRETE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_34_M16_300MM_HEAVYWEIGHT_CONCRETE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE_35_M16_300MM_HEAVYWEIGHT_CONCRETE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
