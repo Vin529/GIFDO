@@ -1,4 +1,7 @@
-This repository contains the source code, dissertation, and additional resources which were created as a part of my 4th year master's project for Computer Science at Durham University. The dissertation included here was awarded 91% by the university, which was tied for the highest grade in my year.
+This repository contains the source code for GIFDO, the Generative Indoor Farm Design Optimiser. This project was developed for my 4th year master's project, and submitted to the Department of Computer Science at Durham University. The dissertation paper included here was awarded 91% by the department, which was tied for the highest grade in my year.
+
+The src directory contains all source code for this project.
+The dissertation directory contains the project paper, all data used in the report, and the presentation I delivered as part of my viva voce.
 
 ## Requirements
 The following versions have been tested. Other versions may work but are unverified:
