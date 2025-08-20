@@ -26,7 +26,7 @@ File path related parameters are located in main.py, can be changed to specify w
 Material parameters, and specifying available materials for the simulation to use should be done in material.py.
 Specifying new crops, and changing the crop used in the fitness calculations, can be done in crop.py.
 
-The croprl subdirectory inside the GIFDO directory contains code from https://github.com/iscoe/croprl which implements the SIMPLE crop model in python. It was easier for me to work with the raw code as opposed to packaging it up and importing it with pip. None of the code in the croprl folder is my own: I am simply using it in line with the licence provided. Only select files from the croprl repo have been included, therefore following the instructions in README_croprl will not yield expected behaviour. In addition, the scripts in croprl have been modified with gymnasium imports as opposed to the outdated gym package.
+The `src/croprl/` directory contains code from https://github.com/iscoe/croprl which implements the SIMPLE crop model in python. It was easier for me to work with the raw code as opposed to packaging it up and importing it with pip. None of the code in this directory is my own: I am simply using it in line with the licence provided. Only select files from the croprl repo have been included, therefore following the instructions in README_croprl.md will not yield expected behaviour. In addition, the scripts in croprl have been modified with gymnasium imports as opposed to the outdated gym package.
 
 Copy a candidate.pickle file into the data/visualisation_files directory, point and run visualise_candidate_mesh.py to see a 3D render of a given design.
 
